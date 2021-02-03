@@ -46,7 +46,7 @@ void setup() {
   // Wake up Stuff
   pinMode(WAKE_UP_PIN, INPUT_PULLUP);
 
-  // TIMER STUFF
+  // TIMER STUFF -> send interrupt every aprox ~ 1sec
   counter = 0;
   TCCR1A = 0;
   TCCR1B = 0;
