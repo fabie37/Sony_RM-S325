@@ -1,5 +1,6 @@
 
 // Can find this in Github: https://github.com/rocketscream/Low-Power
+// If you need a reference for IR Codes: http://lirc.sourceforge.net/remotes/sony/RM-S325
 #include "LowPower.h"
 #include <IRremote.h>
 
