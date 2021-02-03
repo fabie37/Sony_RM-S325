@@ -93,7 +93,7 @@ void loop() {
 
   attachInterrupt(0, wakeUp, HIGH);
 
-  // If counter reaches 60 seconds, power down, else wake up
+  // If counter reaches 10 seconds, power down, else wake up
   if (counter >= 10) {
     LowPower.powerDown(SLEEP_FOREVER, ADC_OFF, BOD_OFF);
   }
